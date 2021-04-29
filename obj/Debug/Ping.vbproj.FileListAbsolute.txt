@@ -1,0 +1,16 @@
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Ping.Form1.resources
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Ping.Resources.resources
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Ping.vbproj.GenerateResource.Cache
+D:\VB2005\Ping\New1\Ping\Ping\bin\Debug\Command Prompt.exe.config
+D:\VB2005\Ping\New1\Ping\Ping\bin\Debug\Command Prompt.exe.manifest
+D:\VB2005\Ping\New1\Ping\Ping\bin\Debug\Command Prompt.application
+D:\VB2005\Ping\New1\Ping\Ping\bin\Debug\Command Prompt.exe
+D:\VB2005\Ping\New1\Ping\Ping\bin\Debug\Command Prompt.pdb
+D:\VB2005\Ping\New1\Ping\Ping\bin\Debug\Command Prompt.xml
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Command Prompt.exe.manifest
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Command Prompt.application
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Command Prompt.exe
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Command Prompt.xml
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Command Prompt.pdb
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Ping.vbprojAssemblyReference.cache
+D:\VB2005\Ping\New1\Ping\Ping\obj\Debug\Ping.vbproj.CoreCompileInputs.cache

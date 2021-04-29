@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Ping.exe" version="1.0.0.0" publicKeyToken="52d0ea7ffa738d0c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="annotation_2020_03_1_9ltHC.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Ping" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Ping.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ping.exe" size="384920">
+      <assemblyIdentity name="Ping" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iYgKZ1HiX4NjVElX9IsUgpai9RDpn+FGzaKVsavm2O4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="annotation_2020_03_1_9ltHC.ico" size="73262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NL6yBBc9lUV5RK51onkNcdJPYLwellcc0gWv3WRFtR8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ping.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=MINH\Minh" issuerKeyHash="3a97e788b12fe8949ce002e39485c9d9b28e1abf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ht9btzTj9N2DZg9Tarz2j30/jStLK9b9CZNgWAPHF5Y=</DigestValue></Reference></SignedInfo><SignatureValue>YymfLkYV8OXEOAUXHdVbY1rxeOvCEV8BymIxfD6M07z5gNN8A4GUo1zOOg0DqWkFkq5xNZfEcVV3x+YqFpsu8qjykGdBHX7YKTG74kM40yCC/BnFpi28a6EEak/7ZwWlwKFotVIG1LZ1P9gVhfOQthyulc8QkZg3WccI8P2/Wyc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oLgDJJ7eJKqeK78iRQZwp9JlPHZMStVfn+Cg4TRDeiN4teDpfu++gxpMMchLcOcfKQezEyx38L9FTyNaCt9PIQfXPgSKezLrJSoA7GvN6z6e6fSeCb/XBD4MYfy978YgJpjfEqed76jBerHHo0/CznXZron994Xi/svCyteQKOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9617c70358609309fdd62b4b2b8d3f7d8ff6bc6a530f6683ddf4e334b75bdf1e" Description="" Url=""><as:assemblyIdentity name="Ping.exe" version="1.0.0.0" publicKeyToken="52d0ea7ffa738d0c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MINH\Minh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>M1BQTTMDfJlApN5QNnvjWPpKaQsaf3L+w067IqWuaMw=</DigestValue></Reference></SignedInfo><SignatureValue>PzFr0X3RnB26ZnQipqwpFSORsdl2sM50H8CRNHvvfXM4YxP2Td7EeEPUuoV7nfFOLGLzk1RbipgxKe2vU8l27nfN0aW5XBu1T5Jr/94SVwQgFNj5DXRKbSFTzHPCDkQwzsL5CSUoIHvJrJwA+Wqpteh4qsD+IT5R8ImzOG0HvII=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oLgDJJ7eJKqeK78iRQZwp9JlPHZMStVfn+Cg4TRDeiN4teDpfu++gxpMMchLcOcfKQezEyx38L9FTyNaCt9PIQfXPgSKezLrJSoA7GvN6z6e6fSeCb/XBD4MYfy978YgJpjfEqed76jBerHHo0/CznXZron994Xi/svCyteQKOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQcm9VYGV2UrpCrLP0/xkwXzANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBJAE4ASABcAE0AaQBuAGgwHhcNMjAwMzE0MDQ0NzQ3WhcNMjEwMzE0MTA0NzQ3WjAdMRswGQYDVQQDHhIATQBJAE4ASABcAE0AaQBuAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKC4AySe3iSqniu/IkUGcKfSZTx2TErVX5/goOE0Q3ojeLXg6X7vvoMaTDHIS3DnHykHsxMsd/C/RU8jWgrfTyEH1z4Einsy6yUqAOxrzes+nun0ngm/1wQ+DGH8ve/GICaY3xKnne+owXqxx6NPws512a6J/feF4v7LwsrXkCjhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAhrgeuIxpSNGKkj4BEaPmBqc+XmbM46/cz7enYbbApYX9dDbeC+AvK086AtgFiR0xEzqI/U5vNt1ufJEkWqaU8KXagMBEA+ZDJya9Y6vl+QYp0FzvJtNQgj23oQpLlEJFsRjDxO/xRvyX2s2bPH2wnKseQHYqWFpZ8v3bVNMhNsg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
